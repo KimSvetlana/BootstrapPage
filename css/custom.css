@@ -104,12 +104,8 @@ section.equity{
         left: -100px;
     }
     .equity .phone-shadow{
-        display: none;
-        position:absolute;
-        width:100%;
-        top:0;
-        left:0;
-        z-index: 1;
+        top: 150px;
+        left: 10px;
     }
     .equity .singnup {
         margin-top: 0;
@@ -122,6 +118,10 @@ section.equity{
     }
     .equity .phone{
         position:static;
+    }
+    .equity .phone-shadow {
+        top: 380px;
+        left: 140px;
     }
     .equity .col-sm {
         margin-top: 0;
@@ -333,6 +333,12 @@ button.marketplace{
     .equity .phone{
         top: -65px;
         left: -90px;
+    }
+    .equity .phone-shadow{
+        top: 200px;
+        left: 40px;
+        width: 100%;
+}
     }
     .products img {
         width: 260px;
