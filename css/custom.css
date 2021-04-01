@@ -58,11 +58,11 @@ section.equity{
     font-weight: 600;
     background: #252525;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-    border-color: #252525;
     border-radius: 10px;
 }
 .equity .singnup:hover{
     background: #fff;
+    border-color: #252525;
     color:#252525;
 }
 .equity .col-sm{
@@ -196,10 +196,10 @@ button.email {
     font-weight: 600;
     background: #2ECC71;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-    border-color: #2ECC71;
     border-radius: 10px;
 }
 button.email:hover {
+    border-color: #2ECC71;
     background: #FFFFFF;
     color:#2ECC71;
 }
@@ -263,7 +263,7 @@ button.email:hover {
 section.assets{
     background-color: #252525;
 }
-section.assets p {
+section.assets h4 {
     padding: 47px;
     margin-bottom: 0;
     font-weight: 600;
@@ -272,7 +272,7 @@ section.assets p {
     color: #2FCC71;
 }
 @media screen and (max-width: 375px){
-    section.assets p{
+    section.assets h4{
         padding: 26px 14px;
         font-size: 22px;
         line-height: 30px;
