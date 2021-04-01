@@ -15,9 +15,17 @@ header a.nav-link{
 header a:hover{
     text-decoration: underline;
 }
+.navbar-collapse.show{
+    background-color: #e3f1f3;
+    z-index: 7;
+}
 @media screen and (max-width: 375px){
     .navbar-brand{
         margin: 0 auto;
+    }
+    .navbar-brand img{
+        width: 146px;
+        height: 39px;
     }
 }
 section.equity{
@@ -337,9 +345,9 @@ button.marketplace{
     .equity .phone-shadow{
         top: 200px;
         left: 40px;
-        width: 100%;
-}
+        width: 100%;    
     }
+    
     .products img {
         width: 260px;
     }
