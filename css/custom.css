@@ -128,7 +128,7 @@ section.equity{
     .equity .phone{
         position: relative;
         top: 0px;
-        left: 140px;
+        left: -160px;
 
     }
     .equity .phone-shadow {
@@ -149,13 +149,6 @@ section.equity{
     section.equity{
         height: auto;
     }
-    /* .equity .phone{
-        position:static;
-    }
-    .equity .phone-shadow {
-        top: 380px;
-        left: 140px;
-    } */
     .equity .col-sm {
         margin-top: 0;
         text-align: center;
