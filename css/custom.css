@@ -15,8 +15,12 @@ header a.nav-link{
 header a:hover{
     text-decoration: underline;
 }
+.collapsing{
+    background-color:#FFFFFF; 
+    z-index: 7; 
+}
 .navbar-collapse.show{
-    background-color: #e3f1f3;
+    background-color: #FFFFFF;
     z-index: 7;
 }
 @media screen and (max-width: 375px){
@@ -120,10 +124,19 @@ section.equity{
         margin-bottom: 37px;
     }
 }
-@media screen and (min-width: 376px) and (max-width: 991px){
-    section.equity{
-        height: auto;
+@media screen and (min-width: 376px) and (max-width: 660px){
+    .equity .phone{
+        position: relative;
+        top: 0px;
+        left: 140px;
+
     }
+    .equity .phone-shadow {
+        top: 400px;
+        left: 0px
+    }
+}
+@media screen and (min-width: 661px) and (max-width: 991px){
     .equity .phone{
         position:static;
     }
@@ -131,6 +144,18 @@ section.equity{
         top: 380px;
         left: 140px;
     }
+}
+@media screen and (min-width: 376px) and (max-width: 991px){
+    section.equity{
+        height: auto;
+    }
+    /* .equity .phone{
+        position:static;
+    }
+    .equity .phone-shadow {
+        top: 380px;
+        left: 140px;
+    } */
     .equity .col-sm {
         margin-top: 0;
         text-align: center;
